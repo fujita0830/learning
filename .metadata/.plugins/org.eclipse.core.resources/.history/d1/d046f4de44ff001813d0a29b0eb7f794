@@ -1,0 +1,12 @@
+package jp.co.internous.action;
+
+public class HumanName {
+	
+	
+	public String getName(String firstName,String lastName){
+		
+		String myName=firstName+lastName;
+		return myName;
+	}
+
+}

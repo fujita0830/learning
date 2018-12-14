@@ -1,0 +1,14 @@
+package jp.co.internous.action;
+
+public class Human {
+	public static void main(String[]args){
+		
+		public String firstName="山田";
+		public String lastName="太郎";
+		
+		HumanName abc=new HumanName();
+		System.out.println(abc.getName(firstName,lastName));
+
+	}
+
+}
