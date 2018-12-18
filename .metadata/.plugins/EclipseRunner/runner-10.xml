@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runner version="1.0.0">
+<category name="カテゴリーなし">
+<launchConfiguration bookmark="false" name="Android"/>
+<launchConfiguration bookmark="false" name="CheckLoadJDBC"/>
+<launchConfiguration bookmark="false" name="HelloJSP (1)"/>
+<launchConfiguration bookmark="false" name="HelloServlet"/>
+<launchConfiguration bookmark="false" name="HelloWorld"/>
+<launchConfiguration bookmark="false" name="Human"/>
+<launchConfiguration bookmark="false" name="Iphone"/>
+<launchConfiguration bookmark="false" name="Iphone (1)"/>
+<launchConfiguration bookmark="false" name="ListSample"/>
+<launchConfiguration bookmark="false" name="Main"/>
+<launchConfiguration bookmark="false" name="Mapsample"/>
+<launchConfiguration bookmark="false" name="Setsample"/>
+<launchConfiguration bookmark="false" name="Test"/>
+<launchConfiguration bookmark="false" name="Test (1)"/>
+<launchConfiguration bookmark="false" name="Test (2)"/>
+<launchConfiguration bookmark="false" name="Tomcat.1"/>
+<launchConfiguration bookmark="false" name="capsule"/>
+<launchConfiguration bookmark="false" name="ローカル・ホスト での Tomcat8 (Java8)"/>
+</category>
+</runner>
