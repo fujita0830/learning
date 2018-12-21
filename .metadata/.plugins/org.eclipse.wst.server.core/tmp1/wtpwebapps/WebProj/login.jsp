@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<s:property value="username1"/>さんようこそ！
+<s:property value="username"/>さんようこそ！
 
 
 </body>

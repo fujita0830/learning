@@ -18,6 +18,27 @@
 ウェルカム
  <s:form action="WelcomeAction">
   <s:submit value="Welcome"/>
- </s:form>
+  </s:form>
+
+<s:form action="InquiryAction">
+ <s:submit value="問い合わせ"/>
+</s:form>
+
+<br>
+GET通信
+<s:form method="get" action="TestAction">
+<s:textfield name="username" label="名前"/>
+<s:password name="password" label="パスワード"/>
+<s:submit value="送信"/>
+</s:form>
+
+POST通信
+<s:form method="post" action="TestAction">
+<s:textfield name="username" label="名前"/>
+<s:password name="password" label="パスワード"/>
+<s:submit value="送信"/>
+</s:form>
+
+
 </body>
 </html>
