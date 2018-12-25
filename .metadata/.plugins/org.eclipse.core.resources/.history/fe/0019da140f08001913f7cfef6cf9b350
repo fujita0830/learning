@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.internousdev.webproj3.dto;
+
+/**
+ * @author internousdev
+ *
+ */
+public class HelloStrutsDTO {
+
+}
