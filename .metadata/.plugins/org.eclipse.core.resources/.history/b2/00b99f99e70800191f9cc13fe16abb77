@@ -1,0 +1,26 @@
+package com.internousdev.webproj4.dao;
+
+import java.sql.Connection;
+
+import com.internousdev.webproj4.util.DBConnector;
+import com.mysql.jdbc.PreparedStatement;
+
+public class LoginDAO {
+
+	public List<LoginDTO> loginDTOList=new ArrayList<LoginDTO>();
+	public List<LoginDTO> select(String username,String password){
+
+		DBConnector db=new DBConnector();
+		Connection con=db.getConnection();
+
+		String sql="select*from users where user_name=? and password=?":
+		try{
+			PreparedStatement ps=con.prepareStatement(sql);
+			ps.setString(1, username1);
+			ps.setString(2, password);
+		}
+
+
+	}
+
+}

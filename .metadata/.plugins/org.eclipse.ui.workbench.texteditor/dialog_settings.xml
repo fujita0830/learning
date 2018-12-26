@@ -2,12 +2,15 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter" key="selection"/>
+		<item value="&lt;action name=&quot;TestAction&quot; class=&quot;com.internousdev.webproj3.action.TestAction&quot; method=&quot;execute&quot;&gt;" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="&lt;action name=&quot;TestAction&quot; class=&quot;com.internousdev.webproj3.action.TestAction&quot; method=&quot;execute&quot;&gt;"/>
+			<item value="ｚ"/>
+			<item value="com.internousdev.webproj3.action"/>
 			<item value="org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter"/>
 			<item value="select(String name,String password)"/>
 		</list>

@@ -8,6 +8,6 @@
 <title>LOGIN</title>
 </head>
 <body>
-<s:property value="usename"/>さんようこそ！
+<s:property value="username"/>さんようこそ！
 </body>
 </html>
