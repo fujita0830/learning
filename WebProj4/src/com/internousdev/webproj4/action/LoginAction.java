@@ -45,7 +45,7 @@ public class LoginAction extends ActionSupport {
 		this.password = password;
 	}
 
-	public List<LoginDTO> getLoginDTOList() {
+	public List<LoginDTO>getLoginDTOList() {
 		return LoginDTOList;
 	}
 

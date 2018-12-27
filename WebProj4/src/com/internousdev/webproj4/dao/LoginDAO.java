@@ -13,6 +13,9 @@ import com.internousdev.webproj4.util.DBConnector;
 
 public class LoginDAO {
 
+	public String username;
+	public String password;
+
 	public List<LoginDTO> loginDTOList=new ArrayList<LoginDTO>();
 	public List<LoginDTO> select(String username,String password){
 

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="リソース名 &apos;Webproj5&apos; を &apos;WebProj5&apos; に変更します" description="リソース &apos;Webproj5&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Webproj5" name="WebProj5" stamp="1545886340546" updateReferences="true"/>
+</session>
