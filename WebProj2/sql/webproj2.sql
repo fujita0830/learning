@@ -18,4 +18,3 @@ name varchar(255),
 qtype varchar(255),
 body varchar(255)
 );
-r
