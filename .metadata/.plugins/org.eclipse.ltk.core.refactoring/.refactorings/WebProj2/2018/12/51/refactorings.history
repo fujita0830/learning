@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="リソース名 &apos;WebProj2/sql/testdb.sql&apos; を &apos;webproj2.sql&apos; に変更します" description="リソース &apos;testdb.sql&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="sql/testdb.sql" name="webproj2.sql" stamp="1545371340826" updateReferences="true"/>&#x0A;&#x0A;</session>
