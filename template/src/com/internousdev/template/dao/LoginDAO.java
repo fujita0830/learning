@@ -19,7 +19,7 @@ public class LoginDAO {
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 
 			preparedStatement.setString(1, loginUserId);
-			preparedStatement.setString(1, loginPassword);
+			preparedStatement.setString(2, loginPassword);
 
 			ResultSet resultSet=preparedStatement.executeQuery();
 

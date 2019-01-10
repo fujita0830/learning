@@ -12,7 +12,7 @@ public class CheckLoadJDBC {
 		}catch(ClassNotFoundException e){
 			msg="ドライバーのロードに失敗しました";
 		}
-		System.out.println(msg);;
+		System.out.println(msg);
 
 	}
 

@@ -17,7 +17,7 @@ public class LoginAction extends ActionSupport implements SessionAware{
 	private String result;
 	private Map<String, Object> session;
 
-	public String exeute(){
+	public String execute(){
 		LoginDAO loginDAO=new LoginDAO();
 		LoginDTO loginDTO=new LoginDTO();
 		BuyItemDAO buyItemDAO=new BuyItemDAO();
