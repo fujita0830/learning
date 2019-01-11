@@ -7,7 +7,7 @@
 
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	<meta http-equiv="Content-Style-Type" content="text/css"/>
-	<meta http-equiv="Content-Script-Type" content="text:javascript"/>
+	<meta http-equiv="Content-Script-Type" content="text/javascript"/>
 	<meta http-equiv="imagetoolbar" content="no"/>
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/>
@@ -86,7 +86,7 @@
       					<span>値段</span>
       				</td>
       				<td>
-      				<s:property value="sssion.buyItem_price"/>
+      				<s:property value="session.buyItem_price"/>
       					<span>円</span>
       				</td>
       			</tr>
@@ -110,7 +110,7 @@
       				</td>
       				<td>
       					<input type="radio" name="pay" value="1" checked="checked">現金払い
-      					<input type="radio" name="pay" value="1" checked="checked">クレジットカード
+      					<input type="radio" name="pay" value="2" checked="checked">クレジットカード
       				</td>
       			</tr>
       			<tr>

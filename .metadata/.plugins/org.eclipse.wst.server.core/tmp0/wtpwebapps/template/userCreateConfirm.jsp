@@ -7,7 +7,7 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <meta http-equiv="Content-Style-Type" content="text/css"/>
-<meta http-equiv="Content-Script-Type" content="text:javascript"/>
+<meta http-equiv="Content-Script-Type" content="text/javascript"/>
 <meta http-equiv="imagetoolbar" content="no"/>
 <meta name="description" content=""/>
 <meta name="keywords" content=""/>
@@ -75,7 +75,7 @@
 					<p>UserCreateConfirm</p>
 			</div>
 			<div>
-					<h3>登録する内容はいかでよろいしですか。</h3>
+					<h3>登録する内容はいかでよろしいですか。</h3>
 					<table>
 					<s:form action="UserCreateCompleteAction">
 						<tr id="box">
@@ -105,7 +105,7 @@
 						</tr>
 						<tr>
 							<td>
-							<s:submit value="登録"/>
+							<s:submit value="完了"/>
 							</td>
 						</tr>
 					</s:form>

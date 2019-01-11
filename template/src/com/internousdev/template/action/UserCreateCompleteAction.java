@@ -8,6 +8,7 @@ import org.apache.struts2.interceptor.SessionAware;
 import com.internousdev.template.dao.UserCreateCompleteDAO;
 import com.opensymphony.xwork2.ActionSupport;
 
+
 public class UserCreateCompleteAction extends ActionSupport implements SessionAware {
 
 
@@ -16,10 +17,12 @@ public class UserCreateCompleteAction extends ActionSupport implements SessionAw
 	private String userName;
 	private Map<String, Object>session;
 
-	public String execute()throws SQLException{
+	public String execute() throws SQLException{
 
 		UserCreateCompleteDAO userCreateCompleteDAO=new UserCreateCompleteDAO();
-		userCreateCompleteDAO.createUser(session.get("loginUserId").toString(),session.get("loginPassword").toString(),session.get("userName").toString());
+		userCreateCompleteDAO.createUser(session.get("loginUserId").toString(),
+				session.get("loginPassword").toString(),
+				session.get("userName").toString());
 		String result=SUCCESS;
 
 		return result;
@@ -54,6 +57,8 @@ public class UserCreateCompleteAction extends ActionSupport implements SessionAw
 		return session;
 	}
 
+
+	@Override
 	public void setSession(Map<String, Object> session) {
 		this.session = session;
 	}

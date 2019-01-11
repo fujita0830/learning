@@ -7,7 +7,7 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <meta http-equiv="Content-Style-Type" content="text/css"/>
-<meta http-equiv="Content-Script-Type" content="text:javascript"/>
+<meta http-equiv="Content-Script-Type" content="text/javascript"/>
 <meta http-equiv="imagetoolbar" content="no"/>
 <meta name="description" content=""/>
 <meta name="keywords" content=""/>
@@ -74,6 +74,8 @@
 			</div>
 			<div>
 					<h3>ユーザーの登録が完了致しました。</h3>
+
+
 					<div>
 							<a href='<s:url action="HomeAction"/>'>ログインへ</a>
 

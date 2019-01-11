@@ -6,13 +6,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <meta http-equiv="Content-Style-Type" content="text/css"/>
-<meta http-equiv="Content-Script-Type" content="text:javascript"/>
+<meta http-equiv="Content-Script-Type" content="text/javascript"/>
 <meta http-equiv="imagetoolbar" content="no"/>
 <meta name="description" content=""/>
 <meta name="keywords" content=""/>
 
 <title>buyItemConfirm画面</title>
-</head>
+
 
 <style type="text/css">
 
@@ -61,7 +61,7 @@
     }
 
 </style>
-
+</head>
 		<div id="header">
 			<div id="pr">
 			</div>
@@ -69,10 +69,10 @@
 
 		<div id="main">
 			<div id="top">
-					<p>UserCreateConfirm</p>
+					<p>BuyItemConfirm</p>
 			</div>
 			<div>
-					<s:form action="UserCreateCompleteAction">
+					<s:form action="BuyItemConfirmAction">
 					<table>
 						<tr>
 							<td>商品名</td>
