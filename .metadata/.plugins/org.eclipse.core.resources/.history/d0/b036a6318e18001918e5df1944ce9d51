@@ -1,0 +1,25 @@
+package com.internousdev.ecsite;
+
+import com.opensymphony.xwork2.ActionSupport;
+import java.util.Map;
+import org.apache.struts2.interceptor.SessionAware;
+
+public class GoHomeAction extends ActionSupport implements SessionAware {
+	public Map<String, Objectb> session;
+
+	public String execute(){
+		return SUCCESS;
+	}
+
+	public Map<String, Objectb> getSession() {
+		return session;
+	}
+
+	@Override
+	public void setSession(Map<String, Objectb> session) {
+		this.session = session;
+	}
+
+
+
+}
