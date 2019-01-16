@@ -67,7 +67,7 @@
 <script type="text/javascript">
 		function submitAction(url){
 			$('form').attr('action',url);
-			$('form').sumit();
+			$('form').submit();
 		}
 
 

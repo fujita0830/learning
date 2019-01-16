@@ -6,3 +6,16 @@
 2019-01-15 10:01:50,699 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
 2019-01-15 10:09:35,535 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
 2019-01-15 14:45:40,729 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2019-01-16 14:45:34,635 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
+2019-01-16 14:49:06,590 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2019-01-16 14:57:20,539 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2019-01-16 15:10:37,929 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2019-01-16 15:34:10,707 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @1759092ms
+2019-01-16 15:34:11,058 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2019-01-16 15:34:11,133 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@7eec4e91{/help,null,AVAILABLE}
+2019-01-16 15:34:11,164 [Start Help Server] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@57bb90b6{HTTP/1.1}{127.0.0.1:53062}
+2019-01-16 15:34:11,164 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @1759550ms
+2019-01-16 15:38:41,225 [Stop Help Server] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@57bb90b6{HTTP/1.1}{127.0.0.1:0}
+2019-01-16 15:38:41,467 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@7eec4e91{/help,null,UNAVAILABLE}
+2019-01-16 15:39:19,422 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2019-01-16 16:06:58,778 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.

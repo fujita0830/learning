@@ -15,6 +15,7 @@ public class MyPageAction extends ActionSupport implements SessionAware {
 	public Map<String, Object>session;
 	public String deleteFlg;
 	public String result;
+
 	public String execute() throws SQLException{
 		MyPageDAO myPageDAO=new MyPageDAO();
 		MyPageDTO myPageDTO=new MyPageDTO();
