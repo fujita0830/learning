@@ -172,3 +172,6 @@
 0:0:0:0:0:0:0:1 - - [17/Jan/2019:17:55:35 +0900] "POST /ecsite/AdminAction.action HTTP/1.1" 200 2133
 0:0:0:0:0:0:0:1 - - [17/Jan/2019:17:55:38 +0900] "POST /ecsite/HomeAction.action HTTP/1.1" 200 2602
 0:0:0:0:0:0:0:1 - - [17/Jan/2019:17:55:41 +0900] "POST /ecsite/AdminAction.action HTTP/1.1" 200 2133
+127.0.0.1 - - [17/Jan/2019:17:56:15 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [17/Jan/2019:17:56:17 +0900] "GET /ecsite/ HTTP/1.1" 200 2133
+0:0:0:0:0:0:0:1 - - [17/Jan/2019:17:56:21 +0900] "POST /ecsite/AdminAction.action HTTP/1.1" 200 2990
