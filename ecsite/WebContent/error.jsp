@@ -76,10 +76,7 @@
 		</div>
 
 		<div >
-			<s:form action="HomeAction">
-				<s:submit value="商品購入"/>
-			</s:form>
-
+			<h3>エラー</h3>
 		</div>
 	</div>
 
