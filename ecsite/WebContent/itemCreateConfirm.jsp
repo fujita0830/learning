@@ -11,7 +11,7 @@
 <meta name="description" content=""/>
 <meta name="keywords" content=""/>
 
-<title>Home画面</title>
+<title>ItemCreateConfirm画面</title>
 
 <style type="text/css">
 
