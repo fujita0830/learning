@@ -81,7 +81,6 @@
 		<div id="text-center">
 			<s:form action="HomeAction">
 				<s:submit value="商品購入"/>
-
 			</s:form>
 			<s:form action="AdminAction">
 				<s:submit value="管理者"/>

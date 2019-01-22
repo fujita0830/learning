@@ -12,7 +12,7 @@
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/>
 
-<title>ItemCreate画面</title>
+<title>ユーザーリスト削除完了画面</title>
 
 <style type="text/css">
 
@@ -76,44 +76,11 @@
 
 		<div id="main">
 			<div id="top">
-					<p>商品登録画面</p>
+					<p>ユーザーリスト削除完了</p>
 			</div>
-			<div>
-					<s:if test="errorMessage!=''">
-						<s:property value="errorMessage" escape="false"/>
-					</s:if>
-					<table>
-					<s:form action="ItemCreateConfirmAction">
-						<tr>
-							<td>
-								<label>商品名:</label>
-							</td>
-							<td>
-								<input type="text" name="createItemName" value=""/>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<label>値段:</label>
-							</td>
-							<td>
-								<input type="text" name="createItemPrice" value=""/>円
-							</td>
-						</tr>
 
-						<tr>
-							<td>
-								<label>在庫数:</label>
-							</td>
-							<td>
-								<input type="text" name="createItemStock" value=""/>個
-							</td>
-						</tr>
-						<s:submit value="登録"/>
-					</s:form>
-					</table>
+			<h2><a href='<s:url action="AdminAction"/>'>管理者TOPへ</a></h2>
 
-			</div>
 		</div>
 		<div id="footer">
 				<div id="pr">

@@ -4,14 +4,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <meta http-equiv="Content-Style-Type" content="text/css"/>
 <meta http-equiv="Content-Script-Type" content="text/javascript"/>
 <meta http-equiv="imagetoolbar" content="no"/>
 <meta name="description" content=""/>
 <meta name="keywords" content=""/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-<title>ユーザーリスト画面</title>
+<title>ユーザーリスト削除確認画面</title>
 
 <style type="text/css">
 
@@ -59,15 +61,11 @@
     clear: both;
     }
 
-    #text-right{
-    display:inline-block;
-    text-align: right;
-    }
 
 </style>
 
-</head>
 
+</head>
 <body>
 
 		<div id="header">
@@ -77,35 +75,17 @@
 
 		<div id="main">
 			<div id="top">
-					<p>ユーザーリスト</p>
+					<p>ユーザーリスト削除確認</p>
 			</div>
 			<div>
+					<s:property value="userListDeleteConfirmMessage"/>
 
-					<table border="1">
-					<tr>
-							<th>ID</th>
-							<th>ログインID</th>
-							<th>ログインパスワード</th>
-							<th>ユーザー名</th>
-							<th>登録日</th>
-							<th>更新日</th>
-					</tr>
-					<s:iterator value="userList">
-						<tr>
-							<td><s:property value="id"/></td>
-							<td><s:property value="login_id"/></td>
-							<td><s:property value="login_pass"/></td>
-							<td><s:property value="user_name"/></td>
-							<td><s:property value="insert_date"/></td>
-							<td><s:property value="update_date"/></td>
-						</tr>
-					</s:iterator>
-					</table>
-
-					<s:form action="UserListDeleteConfirmAction">
-					<s:submit value="削除"/>
+					<s:form action="UserListDeleteCompleteAction">
+						<s:submit value="OK"/>
 					</s:form>
-
+					<s:form action="UserListAction">
+						<s:submit value="キャンセル"/>
+					</s:form>
 
 			</div>
 		</div>
@@ -113,7 +93,6 @@
 				<div id="pr">
 				</div>
 		</div>
-
 
 
 

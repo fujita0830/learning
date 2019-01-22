@@ -21,7 +21,7 @@
       padding: 0;
       line-height: 1.6;
       letter-spacing: 1px;
-      font-family: Verdana, Helvetica, sans-serif;
+      font-family: Verdana,Helvetica, sans-serif;
       font-size: 12px;
       color:#333;
       background: #fff;
@@ -101,6 +101,10 @@
 						</tr>
 					</s:iterator>
 					</table>
+
+					<s:form action="ItemListDeleteConfirmAction">
+					<s:submit value="削除"/>
+					</s:form>
 
 
 			</div>
