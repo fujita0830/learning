@@ -25,6 +25,14 @@ public class ItemCreateConfirmAction extends ActionSupport implements SessionAwa
 			session.put("createItemName", createItemName);
 			session.put("createItemPrice", createItemPrice);
 			session.put("createItemStock", createItemStock);
+
+			try {
+				Integer.parseInt(createItemPrice);
+				Integer.parseInt(createItemStock);
+			}catch (NumberFormatException e) {
+				setErrorMessage("値段または在庫に数値以外が入力されています");
+				result = ERROR;
+			}
 		}else{
 			setErrorMessage("未入力の項目があります。");
 			result=ERROR;

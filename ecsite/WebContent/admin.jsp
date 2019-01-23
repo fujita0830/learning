@@ -90,22 +90,22 @@
 		<div id="item">
 			<h3>商品</h3>
 			<s:form action="ItemCreateAction">
-				<s:submit value="新規登録"/>
+				<s:submit value="新規商品登録"/>
 			</s:form>
 
 			<s:form action="ItemListAction">
-				<s:submit value="一覧"/>
+				<s:submit value="商品一覧"/>
 			</s:form>
 		</div>
 
 		<div id="user">
 			<h3>ユーザー</h3>
 			<s:form action="UserCreateAction">
-				<s:submit value="新規登録"/>
+				<s:submit value="新規ユーザー登録"/>
 			</s:form>
 
 			<s:form action="UserListAction">
-				<s:submit value="一覧"/>
+				<s:submit value="ユーザー一覧"/>
 			</s:form>
 		</div>
 

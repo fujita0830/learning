@@ -6,9 +6,16 @@ public class LoginDTO {
 	private String loginPassword;
 	private String userName;
 	private boolean loginFlg=false;
+	private String admin_flg;
 
 
 
+	public String getAdmin_flg() {
+		return admin_flg;
+	}
+	public void setAdmin_flg(String admin_flg) {
+		this.admin_flg = admin_flg;
+	}
 	public String getLoginId() {
 		return loginId;
 	}

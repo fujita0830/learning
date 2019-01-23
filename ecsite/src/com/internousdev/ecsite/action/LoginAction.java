@@ -22,12 +22,19 @@ public class LoginAction extends ActionSupport implements SessionAware{
 	public String execute(){
 		String result=ERROR;
 		loginDTO=loginDAO.getLoginUserInfo(loginUserId,loginPassword);
-		session.put("loginUser", loginDTO);
+		session.put("loginUserInfo", loginDTO);
 
-		if(((LoginDTO)session.get("loginUser")).getLoginFlg()){
+
+/*		if(Objects.equals(loginDTO.getAdmin_flg(), 1))  これでも行ける */
+			if(loginDTO.getAdmin_flg()=="1")
+
+		/*if(loginDTO.getAdmin_flg().equals("1"))　最初のコード*/{
+			result="admin";
+			return result;
+		}else if(((LoginDTO)session.get("loginUserInfo")).getLoginFlg()){
+
 			result=SUCCESS;
 			BuyItemDTO buyItemDTO=buyItemDAO.getBuyItemInfo();
-
 			session.put("login_user_id",loginDTO.getLoginId());
 			session.put("id",buyItemDTO.getId());
 			session.put("buyItem_name",buyItemDTO.getItemName());
