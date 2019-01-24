@@ -1,6 +1,7 @@
 package com.internousdev.ecsite.action;
 
 import java.util.Map;
+import java.util.Objects;
 
 import org.apache.struts2.interceptor.SessionAware;
 
@@ -25,13 +26,22 @@ public class LoginAction extends ActionSupport implements SessionAware{
 		session.put("loginUserInfo", loginDTO);
 
 
-/*		if(Objects.equals(loginDTO.getAdmin_flg(), 1))  これでも行ける */
-			if(loginDTO.getAdmin_flg()=="1")
 
-		/*if(loginDTO.getAdmin_flg().equals("1"))　最初のコード*/{
+		/*if((((LoginDTO) session.get("loginUser")).getAdminFlg() != null)
+		&& (((LoginDTO) session.get("loginUser")).getAdminFlg().equals("1")))
+		完成例のコード*/
+
+		if(Objects.equals(loginDTO.getAdmin_flg(),"1"))
+
+		/*if(((LoginDTO)session.get("loginUserInfo")).getAdmin_flg()=="1")*
+		 認識されずに商品購入に飛んでしまう。Stringは.equalメソッドで比較しなくてはだめ
+		 * /
+
+		/*if(loginDTO.getAdmin_flg().equals("1"))最初に書いた
+		 * nullpointerのエラーコード*/{
 			result="admin";
 			return result;
-		}else if(((LoginDTO)session.get("loginUserInfo")).getLoginFlg()){
+		}else if(((LoginDTO)session.get("loginUserInfo")).getLoginFlg()==true){
 
 			result=SUCCESS;
 			BuyItemDTO buyItemDTO=buyItemDAO.getBuyItemInfo();
